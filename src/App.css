@@ -1,41 +1,39 @@
-#root {
-  max-width: 1280px;
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,*:before,*:after{
+  box-sizing: inherit;
+}
+body{
+  /* font-family: ; */
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+}
+/* Globales */
+.container{
+  max-width: 120rem;
+  width: 90%;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
+a{
+  text-decoration: none;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+/* h1{
+  font-size: 4.8rem;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h2{
+  font-size: 4rem;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3{
+  font-size: 3.2rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+h4{
+  font-size: 2.8rem;
+} */
+img{
+  max-width: 100%;
 }
